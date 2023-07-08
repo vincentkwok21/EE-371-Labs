@@ -1,5 +1,5 @@
 # EE-371-Labs
-Labs for the UW class EE371
+Labs for the UW class EE371.
 All labs use LabsLand, a virtual FPGA simulator that runs like a normal FPGA. There are also options to include a GPIO and display screen for visual
 outputs
 
