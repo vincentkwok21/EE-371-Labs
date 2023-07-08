@@ -1,0 +1,14 @@
+module Lab2task2 (CLOCK_50, SW, KEY, LEDR, HEX0, HEX1, HEX2, HEX3, HEX4, HEX5);
+	input CLOCK_50; // 50 Mhz internal clock
+	input [9:0] SW; // 10 external switches
+	input [3:0] KEY; // 4 external keys
+	output [9:0] LEDR; // 10 built in LEDs
+	output [0:6] HEX0, HEX1, HEX2, HEX3, HEX4, HEX5; // 6 Hex displays
+	
+	logic [2:0]  q;
+	
+	assign
+	
+	task2RAM dut (.address(SW[8:4]), .CLOCK_50(CLOCK_50), .data(SW[3:1]), .wren(SW[0]), .q(q));
+	
+endmodule 
